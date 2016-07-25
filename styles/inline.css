@@ -91,9 +91,9 @@ body {
     border: none;
     outline: none; }
   .header #butRefresh {
-    background: url(file:///Users/ishantoberoi/Documents/MyWork/ProgressiveWebApp/images/ic_refresh_white_24px.svg) center center no-repeat; }
+    background: url(.././images/ic_refresh_white_24px.svg) center center no-repeat; }
   .header #butAdd {
-    background: url(file:///Users/ishantoberoi/Documents/MyWork/ProgressiveWebApp/images/ic_add_white_24px.svg) center center no-repeat; }
+    background: url(.././images/ic_add_white_24px.svg) center center no-repeat; }
 
 .header__title {
   font-weight: 400;
