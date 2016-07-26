@@ -42,11 +42,11 @@ self.addEvenListener('activate', function (e) {
 		)
 });
 
-self.addEvenListener('fecth', function (e) {
+self.addEvenListener('fetch', function (e) {
 	console.log('[ServiceWorker] fetch', e.request.url);
 	e.respondWith(
 			caches.match(e.request).then(function (response) {
 				return response || fetch(e.request);
-			})
-		)
+			});
+		);
 });
