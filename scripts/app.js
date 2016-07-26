@@ -261,8 +261,8 @@
     }
 
 
-    if('serviceworker' in navigator) {
-      navigator.serviceworker
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker
                 .register('/service-worker-pwa.js')
                 .then( function () {
                   console.log('Service Worker Registered ---- ');
