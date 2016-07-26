@@ -263,7 +263,7 @@
 
     if('serviceworker' in navigator) {
       navigator.serviceworker
-                .register('/service-worker.js')
+                .register('/service-worker-pwa.js')
                 .then( function () {
                   console.log('Service Worker Registered ---- ');
                 });
